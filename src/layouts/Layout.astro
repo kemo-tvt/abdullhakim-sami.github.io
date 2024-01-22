@@ -7,12 +7,13 @@ import Skills from '../components/Skills.astro';
 import Languages from '../components/Languages.astro';
 import Experience from '../components/Experience.astro';
 import Education from '../components/Education.astro';
+import Freetime from '../components/Freetime.astro';
 import Social from '../components/Social.astro';
 import site from '../config.json';
 const { frontmatter } = Astro.props;
 ---
 <!DOCTYPE html>
-<html lang={ site.siteLanguage } dir="rtl">
+<html lang={site.siteLanguage} dir="rtl">
 <head>
 <title>{site.siteTitle}</title>
 <meta charset="UTF-8">
@@ -25,7 +26,8 @@ const { frontmatter } = Astro.props;
 <link rel="stylesheet" href="/styles/global.css">
 <link rel="stylesheet" href="/styles/w3.css">
 <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto&display=swap'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://kit.fontawesome.com/38388095fa.js" crossorigin="anonymous"></script>
 </head>
 <body class="w3-light-grey">
 
@@ -40,22 +42,24 @@ const { frontmatter } = Astro.props;
     
       <div class="w3-white w3-text-grey w3-card-4">
         <Avatar name={frontmatter.name} image={frontmatter.image} />
-        <div class="w3-container">
+        <div class="w3-container text-size">
           <Text text={frontmatter.function} icon="fa-briefcase" />
           <Text text={frontmatter.address} icon="fa-home" />
           <Text text={frontmatter.email} icon="fa-envelope" />
+          <Text text={frontmatter.website} icon="fa-wifi" />
           <Text text={frontmatter.telephone} icon="fa-phone" />
           <Text text={frontmatter.nationality} icon="fa-globe" />
-
+ 
           <hr>
 
-          <Subtitle text="Skills" icon="fa-asterisk" />
+          <Subtitle text="المهارات" icon="fa-asterisk" />
           <Skills lists={frontmatter.skills}/>
           <br>
 
-          <Subtitle text="Languages" icon="fa-globe" />
+          <Subtitle text="اللغات" icon="fa-globe" />
           <Languages lists={frontmatter.languages}/>
           <br>
+          
         </div>
       </div><br>
 
@@ -66,28 +70,38 @@ const { frontmatter } = Astro.props;
     <div class="w3-twothird">
     
       <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <Title text="Work Experience" icon="fa-suitcase" />
+        <Title text="خبرات العمل" icon="fa-suitcase" />
         <Experience lists={frontmatter.experiences}/>
       </div>
 
       <div class="w3-container w3-card w3-white">
-        <Title text="Education" icon="fa-certificate" />
+        <Title text="التعليم" icon="fa-certificate" />
         <Education lists={frontmatter.educations}/>
       </div>
+      <div class="w3-container w3-card w3-white">
+        <Title text="مواعيد التفرغ" icon="fa-calendar-check" />
+        <Freetime lists={frontmatter.freetime}/>
+      </div>
+      <!-- <footer class="w3-container w3-teal w3-center ">
 
+        <p> <a href="/cv.pdf" >حملها بصيغة pdf </a></p>
+      </footer> -->
     <!-- End Right Column -->
     </div>
     
   <!-- End Grid -->
+
   </div>
   
   <!-- End Page Container -->
+
 </div>
 
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <Social lists={frontmatter.social}/>
-  <p>Powered by <a href="https://github.com/dofbi/astro-cv-theme" target="_blank">dofbi</a></p>
-</footer>
+
 
 </body>
 </html>
+
+<style>
+
+</style>

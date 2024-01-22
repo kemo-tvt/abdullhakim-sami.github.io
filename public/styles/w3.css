@@ -1321,7 +1321,7 @@ a {
 .w3-teal,
 .w3-hover-teal:hover {
   color: #fff !important;
-  background-color: #009688 !important;
+  background-color: #754851!important;
 }
 .w3-yellow,
 .w3-hover-yellow:hover {
@@ -1331,7 +1331,7 @@ a {
 .w3-white,
 .w3-hover-white:hover {
   color: #000 !important;
-  background-color: #fff !important;
+  background-color: #ffffffa2 !important;
 }
 .w3-black,
 .w3-hover-black:hover {
@@ -1459,7 +1459,7 @@ a {
 }
 .w3-text-teal,
 .w3-hover-text-teal:hover {
-  color: #009688 !important;
+  color: #754851 !important;
 }
 .w3-text-yellow,
 .w3-hover-text-yellow:hover {

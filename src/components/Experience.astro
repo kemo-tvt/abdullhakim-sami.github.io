@@ -3,9 +3,9 @@ const { lists } = Astro.props;
 ---
 {lists.map((item) => (
 <div class="w3-container">
-  <h5 class="w3-opacity"><b>{item.experience}</b></h5>
-  <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>{item.period}{item.current &&<> - <span class="w3-tag w3-teal w3-round">Current</span></>}</h6>
-  <p>{item.description}</p>
+  <h4 class="w3-opacity"><b>{item.experience}</b></h4>
+  <h6 class="w3-text-teal">      <i class={`fa-solid fa-calendar  w3-margin-left w3-text-teal`}></i>{item.period}{item.current &&<> - <span class="w3-tag w3-teal w3-round">حتى الآن</span></>}</h6>
+  <h4 class="w3-opacity">{item.description}</h4>
   <hr>
 </div>
 ))}

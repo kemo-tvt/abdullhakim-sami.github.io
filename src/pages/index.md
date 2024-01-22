@@ -1,72 +1,57 @@
 ---
 layout: "../layouts/Layout.astro"
-name: Jane Doe
-image: "./avatar_hat.jpg"
+name: عبدالحكيم سامي الشنقيطي
+image: "./avatar.jpeg"
 function: طالب جامعي و مطور مواقع
 address: المدينة المنورة, السعودية
 nationality: سعودي
-email: abdullhakim.sami@gmail.com
-telephone: "+966542140105"
+website:  abdullhakim-sami.github.io
+email: abdullhakim.sami@ gmail.com
+telephone: "966542140105+"
 skills:
-- name: Adobe Photoshop
+
+- name: إدارة المبيعات
   percentage: 90
-- name: Photography
+- name: تطوير المواقع
   percentage: 80
-- name: Illustrator
-  percentage: 75
-- name: Media
-  percentage: 50
+- name: الانصات للإستفسارات والشكاوى 
+  percentage: 90
+- name: الاطلاع على أحدث الوسائل و الأدوات لتسهيل القيام بالمهام
+  percentage: 95
+
 languages:
-- language: English
+- language: العربية
   percentage: 100
-- language: Spanish
-  percentage: 55
-- language: German
-  percentage: 25
+- language: الإنجليزية
+  percentage: 100
+
 experiences:
-- experience: Front End Developer / w3schools.com
-  period: Jan 2015
+- experience: إدارة مبيعات / نشاط تجاري عائلي
+  period:     1442 هـ الى 1444 هـ
+
+  description: كنا نستورد المنتجات الالتكرونية ذات الاستعمال اليومي ونبيعها بسعر منافس 
+
+- experience: إدارة منتجات / نشاط تجاري عائلي
+  period:     1443 هـ 
   current: true
-  description: Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt
-    aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque
-    repellendus iure, iste.
-- experience: Web Developer / something.com
-  period: Mar 2012 - Dec 2014
-  description: Consectetur adipisicing elit. Praesentium magnam consectetur vel in
-    deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio,
-    unde doloremque repellendus iure, iste.
-- experience: Graphic Designer / designsomething.com
-  period: Jun 2010 - Mar 2012
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  description: صناعة البخور مع مساعدة من بعض افراد الأسرة في إعطاء التعليمات
+freetime:
+- freetime: مسائي
+  period: 6 مساء حتى 12 ليلا
+- freetime: صباحي
+  period: 8 صباحا حتى 4 عصرا
+  
 educations:
-- education: W3Schools.com
-  period: Forever
-  description: Web Development! All I need to know in one place
-- education: London Business School
-  period: 2013 - 2015
-  description: Master Degree
-- education: School of Coding
-  period: 2010 - 2013
-  description: Bachelor Degree
-social:
-- name: Facebook
-  icon: fa-facebook-official
-  link: https://www.facebook.com
-- name: Instagram
-  icon: fa-instagram
-  link: https://www.instagram.com
-- name: Snapchat
-  icon: fa-snapchat
-  link: https://www.snapchat.com
-- name: Pinterest
-  icon: fa-pinterest-p
-  link: https://www.pinterest.fr
-- name: Twitter
-  icon: fa-twitter
-  link: https://twitter.com
-- name: Linkedin
-  icon: fa-linkedin
-  link: https://www.linkedin.com
+- education: جامعة طيبة الفرع الرئيسي
+  period:   1444 هــ 
+  current: true
+  description: درست سنة في كلية الآداب قسم اللغة الإنجليزية ثم قمت بالتحويل إلى كلية إدارة الأعمال تخصص الإدارة
+- education: دورات جامعة أكسفورد (عن بعد)
+  period:   1445 هــ 
+  current: true
+  description:   لديهم ثلاث كورسات لإدارة الفنادق حاليا أقوم بدراسة أول كورس ,جميعهم باللغة الإنجليزية .
+
+
 
 ---
 

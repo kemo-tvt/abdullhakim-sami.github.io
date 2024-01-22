@@ -1,0 +1,11 @@
+---
+const { lists } = Astro.props;
+---
+{lists.map((item) => (
+<div class="w3-container">
+  <h4 class="w3-opacity"><b>{item.freetime}</b></h4>
+  <h4 class="w3-text-teal">      <i class={`fa-solid fa-calendar  w3-margin-left w3-text-teal`}></i>{item.period}</h4>
+
+  <hr>
+</div>
+))}
