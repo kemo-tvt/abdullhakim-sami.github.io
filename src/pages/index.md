@@ -2,10 +2,11 @@
 layout: "../layouts/Layout.astro"
 name: Jane Doe
 image: "./avatar_hat.jpg"
-function: Designer
-address: London, UK
-email: ex@mail.com
-telephone: "1224435534"
+function: طالب جامعي و مطور مواقع
+address: المدينة المنورة, السعودية
+nationality: سعودي
+email: abdullhakim.sami@gmail.com
+telephone: "+966542140105"
 skills:
 - name: Adobe Photoshop
   percentage: 90

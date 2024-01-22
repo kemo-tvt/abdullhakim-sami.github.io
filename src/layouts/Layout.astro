@@ -12,7 +12,7 @@ import site from '../config.json';
 const { frontmatter } = Astro.props;
 ---
 <!DOCTYPE html>
-<html lang={ site.siteLanguage }>
+<html lang={ site.siteLanguage } dir="rtl">
 <head>
 <title>{site.siteTitle}</title>
 <meta charset="UTF-8">
@@ -45,6 +45,8 @@ const { frontmatter } = Astro.props;
           <Text text={frontmatter.address} icon="fa-home" />
           <Text text={frontmatter.email} icon="fa-envelope" />
           <Text text={frontmatter.telephone} icon="fa-phone" />
+          <Text text={frontmatter.nationality} icon="fa-globe" />
+
           <hr>
 
           <Subtitle text="Skills" icon="fa-asterisk" />
