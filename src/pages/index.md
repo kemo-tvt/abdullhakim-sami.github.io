@@ -8,6 +8,7 @@ nationality: سعودي
 website:  abdullhakim-sami.github.io
 email: abdullhakim.sami@ gmail.com
 telephone: "966542140105+"
+quran: أحفظ 7 أجزاء من القرآن الكريم بدأ من الجزء 30
 skills:
 
 - name: إتقان لأحكام التجويد
