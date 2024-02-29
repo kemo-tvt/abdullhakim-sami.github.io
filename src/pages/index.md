@@ -2,7 +2,7 @@
 layout: "../layouts/Layout.astro"
 name: عبدالحكيم سامي الشنقيطي
 image: "./avatar.jpeg"
-function: طالب جامعي و مطور مواقع
+function: طالب جامعي و طالب علم
 address: المدينة المنورة, السعودية
 nationality: سعودي
 website:  abdullhakim-sami.github.io
@@ -10,14 +10,14 @@ email: abdullhakim.sami@ gmail.com
 telephone: "966542140105+"
 skills:
 
-- name: إدارة المبيعات
+- name: إتقان لأحكام التجويد
   percentage: 90
-- name: تطوير المواقع
-  percentage: 80
-- name: الانصات للإستفسارات والشكاوى 
-  percentage: 90
-- name: الاطلاع على أحدث الوسائل و الأدوات لتسهيل القيام بالمهام
+- name: ثقافة حديثية عامة
   percentage: 95
+- name: تفرغ تام للأذان و الإمامة
+  percentage: 90
+- name: حضور دروس دينية أسبوعيا
+  percentage: 100
 
 languages:
 - language: العربية
@@ -26,15 +26,14 @@ languages:
   percentage: 100
 
 experiences:
-- experience: إدارة مبيعات / نشاط تجاري عائلي
-  period:     1442 هـ الى 1444 هـ
+- experience: قمت بالأذان و الإمامة لمسجد في الرياض 
+  period:     لمدة أسبوع تقريبا 1445
 
-  description: كنا نستورد المنتجات الالتكرونية ذات الاستعمال اليومي ونبيعها بسعر منافس 
-
-- experience: إدارة منتجات / نشاط تجاري عائلي
-  period:     1443 هـ 
+  description: كنت في مسجد في الرياض و كان الإمام و المؤذن لا يحضرون لصلاة الفجر و المؤذن لا يحضر إلا صلاة المغرب و العشاء فكنت أأذن صلاة و شخص آخر يؤذن التي بعدها ...وكان هنالك من يصلي الفجر وكان حفظه سيء فتقدمت أصلي بالناس 
+- experience: عدت إلى حلقات الحفظ 
+  period:   شهر 12  1443 هـ 
   current: true
-  description: صناعة البخور مع مساعدة من بعض افراد الأسرة في إعطاء التعليمات
+  description: 
 freetime:
 - freetime: مسائي
   period: 6 مساء حتى 12 ليلا
